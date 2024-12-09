@@ -1,0 +1,30 @@
+
+.header {
+    height: 132px;
+    width: auto;
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 24px 20px;
+
+}
+
+.header__logo {
+    width: 78.45px;
+    height: 15.43px;
+}
+
+.header__menu {
+    line-height: 1.5;
+    height: auto;
+}
+
+.header__menu-title, .header__menu-link {
+    color: #fff;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: bold;        
+}
+
